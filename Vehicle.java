@@ -14,6 +14,8 @@ public abstract class Vehicle {
             this.Millege = millege;
             this.ratePerDay = ratePerDay;
         }
+
+        
         public String getModel() {
                 return Model;
         }
