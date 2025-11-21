@@ -1,8 +1,8 @@
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
 import java.util.Random;
+import javax.swing.*;
 
 /**
  * Snake.java
@@ -149,7 +149,7 @@ class GamePanel extends JPanel implements ActionListener, KeyListener {
         // If a timer exists from a previous run, stop it first.
         if (timer != null) timer.stop();
         // Speed (delay in ms) controls difficulty. Lower = faster.
-        int delayMs = 50; // ~8.3 ticks per second
+        int delayMs = 150; // ~8.3 ticks per second
         timer = new Timer(delayMs, this);
     }
 
